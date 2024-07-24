@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Times, serif;
+    color: whitesmoke;
+    background-image: url(https://img.freepik.com/free-photo/wooden-table-with-blurred-background_1134-14.jpg);
+    background-size: 100%;
+}
+
+.container{
+    max-width: 10px;
+    margin: 2px auto;
+    padding: 0px 2px;
+}
+
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+}
+
+.title{
+    margin-bottom: 1rem;
+    font-size: 500%;
+    color: black;
+}
+
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+    background: white;
+    color: black;
+    
+    
+}
+
+#quote{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.biography{
+    color: black;
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+    
+}
+
+h2{
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.1em;
+    line-height: 1.4;
+}
